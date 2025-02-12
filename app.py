@@ -9,9 +9,9 @@ st.set_page_config(page_title="Prediction of Disease Outbreaks",
                    page_icon='🩺')
 
 # Load models
-diabetes_model = pickle.load(open(r"C:\Users\malli\Documents\Predictions\training_models\diabetes_model.sav", 'rb'))
-heart_model = pickle.load(open(r"C:\Users\malli\Documents\Predictions\training_models\heart_model.sav", 'rb'))
-parkinsons_model = pickle.load(open(r"C:\Users\malli\Documents\Predictions\training_models\parkinsons_model.sav", 'rb'))
+diabetes_model = pickle.load(open(r"C:\Users\malli\Documents\Predictions\tarining_models\diabetes_model.sav", 'rb'))
+heart_model = pickle.load(open(r"C:\Users\malli\Documents\Predictions\tarining_models\heart_model.sav", 'rb'))
+parkinsons_model = pickle.load(open(r"C:\Users\malli\Documents\Predictions\tarining_models\parkinsons_model.sav", 'rb'))
 
 # Sidebar menu
 with st.sidebar:
