@@ -9,10 +9,9 @@ st.set_page_config(page_title="Prediction of Disease Outbreaks",
                    page_icon='🩺')
 
 # Load models
-diabetes_model = pickle.load(open(r"C:\Users\malli\Documents\Predictions\tarining_models\diabetes_model.sav", 'rb'))
-heart_model = pickle.load(open(r"C:\Users\malli\Documents\Predictions\tarining_models\heart_model.sav", 'rb'))
-parkinsons_model = pickle.load(open(r"C:\Users\malli\Documents\Predictions\tarining_models\parkinsons_model.sav", 'rb'))
-
+diabetes_model = pickle.load(open(r"C:\Users\malli\Documents\Predictions\dataset_models\diabetes_model.sav", 'rb'))
+heart_model = pickle.load(open(r"C:\Users\malli\Documents\Predictions\dataset_models\heart_model.sav", 'rb'))
+parkinsons_model = pickle.load(open(r"C:\Users\malli\Documents\Predictions\dataset_models\parkinsons_model.sav", 'rb'))
 # Sidebar menu
 with st.sidebar:
     selected = option_menu("Prediction of Disease Outbreak System",
